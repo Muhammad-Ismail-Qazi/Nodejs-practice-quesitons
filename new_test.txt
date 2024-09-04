@@ -1,0 +1,2 @@
+Hello test file this is a test text
+This is a new line added by node.js

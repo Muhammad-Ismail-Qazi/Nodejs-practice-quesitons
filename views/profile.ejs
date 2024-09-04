@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Templete page</title>
+</head>
+
+<body>
+    <h1>Templete</h1>
+    <h1>Welcome, <%=data.name%> 
+    </h1>
+    // write the skills inside the ul below
+
+    <ul>
+        <% for(let i=0; i<data.skills.length; i++){ %>
+        <li><%= data.skills[i] %></li>
+        <% } %>
+    </ul>
+    
+
+</body>
+
+</html>
